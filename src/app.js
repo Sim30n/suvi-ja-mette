@@ -4,6 +4,7 @@ const hbs = require("hbs")
 
 const app = express()
 const port = process.env.PORT || 3000
+const mapKey = process.env.MAP_KEY
 
 //Definie paths for Express config
 const publicDirectoryPath = path.join(__dirname, "../public")
@@ -35,7 +36,8 @@ app.get("/hinnasto", (req, res) =>{
 app.get("/yhteystiedot", (req, res) =>{
   res.render("yhteystiedot", {
     title: "Yhteystiedot",
-    link_active_yhteystiedot: "active"
+    link_active_yhteystiedot: "active",
+    mapKey: mapKey
   })
 })
 
