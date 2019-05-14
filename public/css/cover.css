@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   /* The image used */
-  background-image: url("../../img/taustakuva3.JPG");
+  background-image: url("/img/taustakuva3.jpg");
 
   /* Full height */
   height: 100%;
