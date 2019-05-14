@@ -1,0 +1,24 @@
+{
+  "name": "suvi-ja-mette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sim30n/suvi-ja-mette.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sim30n/suvi-ja-mette/issues"
+  },
+  "homepage": "https://github.com/Sim30n/suvi-ja-mette#readme"
+}
