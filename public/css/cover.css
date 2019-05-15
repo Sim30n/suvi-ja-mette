@@ -123,3 +123,7 @@ hr {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+.hinnasto{
+  cursor: pointer;
+}

@@ -1,13 +1,79 @@
 {{>header}}
 
 <main role="main" class="inner cover">
-  <h2>Klassinen hieronta alkaen 30€</h2>
+  <h2 class="hinnasto" id="click" >Klassinen hieronta alkaen 30€</h2>
+  <p id="demo"></p>
+  <script>
+    document.getElementById("click").addEventListener("click", moreInfo);
+    function moreInfo(){
+      var x = document.getElementById("demo")
+      if (x.innerHTML === "") {
+        x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit mauris mauris, ut pretium tellus sagittis et. Nullam facilisis aliquam erat, vitae porta enim rhoncus eget. Duis vel sem dignissim, dapibus ipsum sed, tempor felis. Quisque in vestibulum dui, ut ultrices ipsum."
+      } else {
+        x.innerHTML = "";
+      }
+    }
+  </script>
   <hr>
-  <h2>Kuumakivihieronta alkaen 35€</h2>
+
+  <h2 class="hinnasto" id="click2">Kuumakivihieronta alkaen 35€</h2>
+  <p id="demo2"></p>
+  <script>
+    document.getElementById("click2").addEventListener("click", moreInfo);
+    function moreInfo(){
+      var x = document.getElementById("demo2")
+      if (x.innerHTML === "") {
+        x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit mauris mauris, ut pretium tellus sagittis et. Nullam facilisis aliquam erat, vitae porta enim rhoncus eget. Duis vel sem dignissim, dapibus ipsum sed, tempor felis. Quisque in vestibulum dui, ut ultrices ipsum."
+      } else {
+        x.innerHTML = "";
+      }
+    }
+  </script>
   <hr>
-  <h2>Intialainen päähieronta 40€</h2>
+
+  <h2 class="hinnasto" id="click3">Intialainen päähieronta 45min. 40€</h2>
+  <p id="demo3"></p>
+  <script>
+    document.getElementById("click3").addEventListener("click", moreInfo);
+    function moreInfo(){
+      var x = document.getElementById("demo3")
+      if (x.innerHTML === "") {
+        x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit mauris mauris, ut pretium tellus sagittis et. Nullam facilisis aliquam erat, vitae porta enim rhoncus eget. Duis vel sem dignissim, dapibus ipsum sed, tempor felis. Quisque in vestibulum dui, ut ultrices ipsum."
+      } else {
+        x.innerHTML = "";
+      }
+    }
+  </script>
   <hr>
-  <h2>Perinteinen jäsenkorjaus harjoitushoitona 45€</h2>
+
+  <h2 class="hinnasto" id="click4">Klassinen hieronta + Intialainen päähieronta -yhdistelmähoito 30min. + 30min. 45€</h2>
+  <p id="demo4"></p>
+  <script>
+    document.getElementById("click4").addEventListener("click", moreInfo);
+    function moreInfo(){
+      var x = document.getElementById("demo4")
+      if (x.innerHTML === "") {
+        x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit mauris mauris, ut pretium tellus sagittis et. Nullam facilisis aliquam erat, vitae porta enim rhoncus eget. Duis vel sem dignissim, dapibus ipsum sed, tempor felis. Quisque in vestibulum dui, ut ultrices ipsum."
+      } else {
+        x.innerHTML = "";
+      }
+    }
+  </script>
+  <hr>
+
+  <h2 class="hinnasto" id="click5">Perinteinen jäsenkorjaus harjoitushoitona 45€</h2>
+  <p id="demo5"></p>
+  <script>
+    document.getElementById("click5").addEventListener("click", moreInfo);
+    function moreInfo(){
+      var x = document.getElementById("demo5")
+      if (x.innerHTML === "") {
+        x.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit mauris mauris, ut pretium tellus sagittis et. Nullam facilisis aliquam erat, vitae porta enim rhoncus eget. Duis vel sem dignissim, dapibus ipsum sed, tempor felis. Quisque in vestibulum dui, ut ultrices ipsum."
+      } else {
+        x.innerHTML = "";
+      }
+    }
+  </script>
   <hr>
 </main>
 
