@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   /* The image used */
-  background-image: url("/img/taustakuva3.jpg");
+  background: url("/img/taustakuva3.jpg");
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
