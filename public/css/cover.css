@@ -37,7 +37,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100%;
-  overflow: auto;
+  overflow: scroll;
 }
 
 body {
