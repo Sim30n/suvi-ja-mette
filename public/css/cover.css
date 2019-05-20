@@ -38,6 +38,7 @@ body {
   -o-background-size: cover;
   height: 100%;
   overflow: auto;
+  transition: height 999999s
 }
 
 body {
