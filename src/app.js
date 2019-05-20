@@ -4,7 +4,7 @@ const hbs = require("hbs")
 
 const app = express()
 const port = process.env.PORT || 3000
-const mapKey = process.env.MAP_KEY
+const mapKey = process.env.mapKey
 
 //Definie paths for Express config
 const publicDirectoryPath = path.join(__dirname, "../public")
