@@ -34,10 +34,11 @@ body {
   background-attachment: scroll;
   background-size:cover;
   -webkit-background-size: cover;
+  -webkit-overflow-scrolling:touch;
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 body {
@@ -45,6 +46,10 @@ body {
   display: flex;
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+header {
+    height:100%;
 }
 
 @media (min-width: 700px) {
