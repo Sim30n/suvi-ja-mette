@@ -31,14 +31,13 @@ body {
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size:cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100%;
   overflow: auto;
-  transition: height 999999s
 }
 
 body {
@@ -48,12 +47,23 @@ body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
+@media (min-width: 0px) and (max-width: 700px) {
+  body{
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: local;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+}
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
   header{
     padding-bottom:100px;
   }
-}
+} */
 
 .cover-container {
   max-width: 42em;

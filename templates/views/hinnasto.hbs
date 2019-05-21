@@ -1,31 +1,18 @@
 {{>header}}
 
 <main role="main" class="inner cover">
-  <h2 class="hinnasto" id="click" >Klassinen hieronta alkaen 30€</h2>
+  <h2 class="hinnasto" id="click" >Klassinen hieronta</h2>
   <p id="demo"></p>
   <script>
     document.getElementById("click").addEventListener("click", moreInfo);
     function moreInfo(){
       var x = document.getElementById("demo")
       if (x.innerHTML === "") {
-        x.innerHTML = "Klassinen hieronta on hyvin perinteinen hoitomuoto, jossa käsitellään ja muokataan pehmeitä kudoksia"
-                      +" hyödyntäen erilaisia hierontaotteita."
-                      +" Hieronnan tavoite on tuottaa asiakkaalle hyvää oloa ja helpottaa ja ennaltaehkäistä mahdollisia vaivoja."
-                      +" Klassinen hieronta sopii kaikille iästä tai ammatista riippumatta. Hoito tehdään aina asiakkaan tarpeiden"
-                      +" ja toiveiden mukaan."
-                      +" Hyötyjä:"
-                      +"<li>Niska-hartiaseudun särkyjen ja jännityspäänsäryn hoito</li>"
-                      +"<li>Vilkastuttaa verenkiertoa ja lisää hapen ja ravinteiden kulkua sekä poistaa kuona-aineita</li>"
-                      +"<li>Rentouttaa lihaksia ja lievittää kipua</li>"
-                      +"<li>Migreenin jälkihoito</li>"
-                      +"<li>Palautumisen nopeutuminen fyysisestä kuormituksesta</li>"
-                      +"<li>Stressin lievittäminen ja rentoutuminen</li>"
-                      +"<li>Helpotusta unettomuuteen</li>"
-                      +"<li>Vamman nopeampi paraneminen</li>"
-                      +"<li>Turvotuksen vähentäminen</li>"
-                      +"<li>Parantaa nivelten liikkuvuutta</li>"
-                      +"Joissakin tilanteissa hierontaa ei suositella lainkaan esim. jotkin sairaudet ja tulehdukset, jolloin hoitoon"
-                      +" tulo kannattaa varmistaa etukäteen hoitavalta lääkäriltä."
+        x.innerHTML = "30min 30€</br>"
+                      +"45min 35€</br>"
+                      +"60min 45€</br>"
+                      +"75min 55€</br>"
+                      +"90min 60€</br>"
       } else {
         x.innerHTML = "";
       }
@@ -33,19 +20,18 @@
   </script>
   <hr>
 
-  <h2 class="hinnasto" id="click2">Kuumakivihieronta alkaen 35€</h2>
+  <h2 class="hinnasto" id="click2">Kuumakivihieronta</h2>
   <p id="demo2"></p>
   <script>
     document.getElementById("click2").addEventListener("click", moreInfo);
     function moreInfo(){
       var x = document.getElementById("demo2")
       if (x.innerHTML === "") {
-        x.innerHTML = "Kuumakivihieronnassa ja klassisessa hieronnassa ovat samat vaikutusmekanismit, mutta lämpimien"
-                      +" kivien ansiosta hieronnan vaikutukset ja rentoutuminen tehostuvat."
-                      +" Kuumakivihieronnassa vaihtoehtoina kevyempi hemmotteluthoito tai tehokkaampi hieronta, jossa"
-                      +" kuumien kivien lisäksi voidaan käyttää klassisen hieronnan otteita, jolloin hieronnasta tulee lihasta"
-                      +" muokkaavampi."
-                      +" Hoito suunnitellaan aina asiakkaan toiveiden ja tarpeen mukaan."
+        x.innerHTML = "30min 35€</br>"
+                     +"45min 42€</br>"
+                     +"60min 52€</br>"
+                     +"75min 65€"
+
       } else {
         x.innerHTML = "";
       }
@@ -53,19 +39,13 @@
   </script>
   <hr>
 
-  <h2 class="hinnasto" id="click3">Intialainen päähieronta 45min. 40€</h2>
+  <h2 class="hinnasto" id="click3">Intialainen päähieronta</h2>
   <p id="demo3"> </p>
 
   <script>
     document.getElementById("click3").addEventListener("click", moreInfo);
     function moreInfo(){
-      var intialainenInfo = "Intialainen päähieronta toimii kokonaisvaltaisesti vaikuttaen kehoon ja mieleen. Se rentouttaa, rauhoittaa ja kirkastaa ajatuksia. "
-                            +"Intialainen päähieronta sopii erinomaisesti monillekin tuttuun hektiseen ja stressaavaan elämänrytmiin rauhoittavana ja stressiä lieventävänä hoitona. "
-                            +"Hieronnan aikana käsitellään pään alueen lisäksi myös niska-hartiaseutu. Päänhieronta vilkastuttaa verenkiertoa, helpottaa päänsärkyä ja migreeniä, "
-                            +"rentouttaa sekä helpottaa hartioiden ja niskan jännitystä. Hoito suoritetaan tuolilla istuen vaatteet päällä. Intialaisen päähieronnan vaikutuksia: "
-                            +"<li>Rentoutunut olo</li><li>Stressiperäisten oireiden lievittyminen</li><li>Kehon normaalin tasapainon palautuminen</li><li>Keskittymiskyvyn lisääntyminen</li>"
-                            +"<li>Migreenin oireiden ja kestojen väheneminen</li><li>Päänsäryn hellittäminen</li> <li>Vastustuskyvyn paraneminen</li><li>Verenkierron vilkastuminen</li>"
-                            +"<li>Hiusten lisääntynyt kasvu ja kunnon paraneminen</li> <li>Unen laadun paraneminen </li>"
+      var intialainenInfo = "45min 40€"
       var x = document.getElementById("demo3")
       if (x.innerHTML === "") {
         x.innerHTML = intialainenInfo
@@ -76,14 +56,14 @@
   </script>
   <hr>
 
-  <h2 class="hinnasto" id="click4">Klassinen hieronta + Intialainen päähieronta -yhdistelmähoito 30min. + 30min. 45€</h2>
+  <h2 class="hinnasto" id="click4">Klassinen hieronta + Intialainen päähieronta -yhdistelmähoito</h2>
   <p id="demo4"></p>
   <script>
     document.getElementById("click4").addEventListener("click", moreInfo);
     function moreInfo(){
       var x = document.getElementById("demo4")
       if (x.innerHTML === "") {
-        x.innerHTML = "Katso lisää kohdista klassinen hieronta ja intialainen päähieronta."
+        x.innerHTML = "30min + 30min 45€"
       } else {
         x.innerHTML = "";
       }
@@ -91,18 +71,14 @@
   </script>
   <hr>
 
-  <h2 class="hinnasto" id="click5">Perinteinen jäsenkorjaus harjoitushoitona 45€</h2>
+  <h2 class="hinnasto" id="click5">Perinteinen jäsenkorjaus (harjoitushoitona)</h2>
   <p id="demo5"></p>
   <script>
     document.getElementById("click5").addEventListener("click", moreInfo);
     function moreInfo(){
       var x = document.getElementById("demo5")
       if (x.innerHTML === "") {
-        x.innerHTML = "Perinteinen jäsenkorjaus on yksi kansaparannuksen hoitomuoto. Perinteinen jäsenkorjaus ei ole"
-                      +" manipulaatiota eli eri kehon jäsenten naksautusta toisin kuin usein luullaan, vaan ennemminkin"
-                      +" mobilisaatiohoitoa, joka avaa ja tasapainottaa koko kehoa. Hoito on pehmeää ja kivutonta. Hoito sopii"
-                      +" kaikille. Perinteisessä jäsenkorjauksessa käsitellään hoidon aikana koko keho, jolloin aikaa kannattaa"
-                      +" varata reilusti, 2,5-3 tuntia."
+        x.innerHTML = "150min - 180min 45€"
       } else {
         x.innerHTML = "";
       }

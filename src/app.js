@@ -22,14 +22,16 @@ app.use(express.static(publicDirectoryPath))
 app.get("", (req, res) =>{
   res.render("index", {
     title: "Etusivu",
-    link_active_kotisivu: "active"
+    link_active_kotisivu: "active",
+    head_brand: "Koulutetut Hierojat"
   })
 })
 
-app.get("/hinnasto", (req, res) =>{
-  res.render("hinnasto", {
-    title: "Hinnasto",
-    link_active_hinnasto: "active"
+app.get("/palvelut", (req, res) =>{
+  res.render("palvelut", {
+    title: "Palvelut",
+    link_active_palvelut: "active",
+    head_brand: ""
   })
 })
 
@@ -37,7 +39,32 @@ app.get("/yhteystiedot", (req, res) =>{
   res.render("yhteystiedot", {
     title: "Yhteystiedot",
     link_active_yhteystiedot: "active",
-    mapKey: mapKey
+    mapKey: mapKey,
+    head_brand: ""
+  })
+})
+
+app.get("/hinnasto", (req, res) =>{
+  res.render("hinnasto", {
+    title: "Hinnasto",
+    link_active_hinnasto: "active",
+    head_brand: ""
+  })
+})
+
+app.get("/suvi", (req, res) =>{
+  res.render("suvi", {
+    title: "Suvi",
+    link_active_yhteystiedot: "active",
+    head_brand: ""
+  })
+})
+
+app.get("/mette", (req, res) =>{
+  res.render("mette", {
+    title: "Mette",
+    link_active_yhteystiedot: "active",
+    head_brand: ""
   })
 })
 
