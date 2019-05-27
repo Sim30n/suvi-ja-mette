@@ -57,13 +57,10 @@ body {
   header{
     padding-bottom: 20px;
   }
-}
-
-/* @media (min-width: 700px) {
-  header{
-    padding-bottom:100px;
+  p{
+    color:#fff;
   }
-} */
+}
 
 .cover-container {
   max-width: 42em;
