@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.4",
-    "nodemon": "^1.19.0"
+    "nodemon": "^2.0.22"
   },
   "devDependencies": {},
   "scripts": {
